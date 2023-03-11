@@ -1,0 +1,14 @@
+LICENSE
+pyproject.toml
+setup.cfg
+setup.py
+src/welcome/__init__.py
+src/welcome/py.typed
+src/welcome/welcome.py
+src/welcome.egg-info/PKG-INFO
+src/welcome.egg-info/SOURCES.txt
+src/welcome.egg-info/dependency_links.txt
+src/welcome.egg-info/not-zip-safe
+src/welcome.egg-info/requires.txt
+src/welcome.egg-info/top_level.txt
+tests/test_welcome.py
