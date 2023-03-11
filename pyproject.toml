@@ -1,3 +1,15 @@
+[welcome]
+name = "welcome"
+version = "0.0.2"
+authors = [
+    { name="Creeper751", email="" },
+]
+description = "A small example package"
+readme = "README.md"
+
+[welcome.urls]
+"Homepage" = "https://github.com/Creeper751/Python-Package/"
+"Bug Tracker" = "https://github.com/Creeper751/Python-Package/issues"
 [build-system]
 requires = ["setuptools>=42.0", "wheel"]
 build-backend = "setuptools.build_meta"
