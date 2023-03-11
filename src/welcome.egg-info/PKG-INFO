@@ -1,9 +1,12 @@
 Metadata-Version: 2.1
 Name: welcome
-Version: 0.0.0
-Summary: a simple welcome script
+Version: 0.0.4
+Summary: A small example package
 Author: Creeper751
+Author-email: Creeper751 <joshua.stoneham@gamil.com>
 License: GNU
+Project-URL: Homepage, https://github.com/Creeper751/Python-Package/
+Project-URL: Bug Tracker, https://github.com/Creeper751/Python-Package/issues
 Platform: unix
 Platform: linux
 Platform: osx
@@ -17,4 +20,12 @@ Classifier: Programming Language :: Python :: 3.9
 Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
 Requires-Python: >=3.7
+Description-Content-Type: text/markdown
 Provides-Extra: testing
+
+# This is my python package
+
+I have already configured it to run with flake8, mypy, pytest, and tox
+Is my tests passing?: ![Tests](https://github.com/Creeper751/Python-Package/actions/workflows/tests.yml/badge.svg)
+
+#### I am in no way claiming that I did all on my own. I used my own code, then followed a tutorial by @mCodingLLC.

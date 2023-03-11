@@ -1,13 +1,15 @@
-[welcome]
+python_requires = ">=3.7"
+[project]
 name = "welcome"
-version = "0.0.2"
+version = "0.0.4"
 authors = [
-    { name="Creeper751", email="" },
+    { name="Creeper751", email="joshua.stoneham@gamil.com" },
 ]
 description = "A small example package"
 readme = "README.md"
+classifiers = ['Programming Language :: Python :: 3', 'Programming Language :: Python :: 3 :: Only', 'Programming Language :: Python :: 3.7', 'Programming Language :: Python :: 3.8', 'Programming Language :: Python :: 3.9', 'Programming Language :: Python :: 3.10', 'Programming Language :: Python :: 3.11']
 
-[welcome.urls]
+[project.urls]
 "Homepage" = "https://github.com/Creeper751/Python-Package/"
 "Bug Tracker" = "https://github.com/Creeper751/Python-Package/issues"
 [build-system]
